@@ -31,19 +31,19 @@ def screenShot():
     img = r.screenshot()
 
     img.save(
-        r'C:/Users/victor hugo velez/Documents/__programas__/Codigo/_Visualizar__/Images/{0}{1}.png'.format(
+        r'C:/Users/%USERNAME%/Pictures/{0}{1}.png'.format(
             name, num
         )
     )
 
-    sys(f'\n [+] Captura guardada como: {name}{num}.png...')
+    sys(f'\n [+] Capture saved as: {name}{num}.png...')
     num += 1
 
 def main(): 
-    sys('\n [+] Presiona 1 para tomar una captura...')
+    sys('\n [+] Press 1 to take a screenshot...')
     keylogger_(screenShot)
 
 if __name__ == '__main__':
     main()
     
-# De: Francisco Velez
+# Author: Francisco Velez
