@@ -1,7 +1,8 @@
 from pynput import keyboard
-from time import sleep
 import pyautogui as r
+import os
 
+directory = os.path.abspath(os.getcwd()) + '\\Images\\'
 name = 'Imagen'
 sys = print
 num = 1
@@ -31,8 +32,8 @@ def screenShot():
     img = r.screenshot()
 
     img.save(
-        r'C:/Users/%USERNAME%/Pictures/{0}{1}.png'.format(
-            name, num
+        r'{0}\\{1}{2}.png'.format(
+            directory, name, num
         )
     )
 
@@ -46,4 +47,4 @@ def main():
 if __name__ == '__main__':
     main()
     
-# Author: Francisco Velez
+#* Author: Francisco Velez
