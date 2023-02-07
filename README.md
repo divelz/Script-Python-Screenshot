@@ -1,6 +1,6 @@
 # Script-Python-Screenshot
 
-Project #3 with Python. Take screenshots.
+Project #2 with Python. Take screenshots.
 
 Hitting the one key in the program takes a full screenshot, 
 and saves it to the images folder within the program directory.
